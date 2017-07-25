@@ -1,15 +1,15 @@
-´ËÏîÄ¿ÊÇÓÃÓÚandroid 5.0 api ½øĞĞÂ¼ÖÆ,·Ö±ğÂ¼ÖÆÆÁÄ»ºÍÒôĞ§,×îºóºÏ³Émp4ÎÄ¼ş¡£
+æ­¤é¡¹ç›®æ˜¯ç”¨äºandroid 5.0 api è¿›è¡Œå½•åˆ¶,åˆ†åˆ«å½•åˆ¶å±å¹•å’ŒéŸ³æ•ˆ,æœ€ååˆæˆmp4æ–‡ä»¶ã€‚
 
-1.ËùÓÃÈ¨ÏŞ
+1.æ‰€ç”¨æƒé™
   <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
   <uses-permission android:name="android.permission.RECORD_AUDIO"/>
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
-2.Ö»Ğèµ÷ÓÃtoolsÀà,±ØĞëÏÈÒªÖ´ĞĞinitRecorder·½·¨¡£
-  int initRecorder(String dirName,Activity activity) Ã»ÓĞÔò´´½¨ÎÄ¼ş¼Ğ,´«ÈëActivity±ãÓÚ²¥·Å.·µ»Ø¹¦ÄÜÊÇ·ñ¿ÉÓÃ,0Îª²»¿ÉÓÃ
-  int startRecorder() ·µ»Ø¹¦ÄÜÊÇ·ñ¿ÉÓÃ,0Îª²»¿ÉÓÃ
-  void stopRecorder() Í£Ö¹Â¼ÖÆ,ºÏ³ÉÊÓÆµ
-  String playVideo() Ö±½Ó²¥·ÅºÍ·µ»Ø×Ö·û´®ĞÅÏ¢
+2.åªéœ€è°ƒç”¨toolsç±»,å¿…é¡»å…ˆè¦æ‰§è¡ŒinitRecorderæ–¹æ³•ã€‚
+  int initRecorder(String dirName,Activity activity) æ²¡æœ‰åˆ™åˆ›å»ºæ–‡ä»¶å¤¹,ä¼ å…¥Activityä¾¿äºæ’­æ”¾.è¿”å›åŠŸèƒ½æ˜¯å¦å¯ç”¨,0ä¸ºä¸å¯ç”¨
+  int startRecorder() è¿”å›åŠŸèƒ½æ˜¯å¦å¯ç”¨,0ä¸ºä¸å¯ç”¨
+  void stopRecorder() åœæ­¢å½•åˆ¶,åˆæˆè§†é¢‘
+  String playVideo() ç›´æ¥æ’­æ”¾å’Œè¿”å›å­—ç¬¦ä¸²ä¿¡æ¯
   
   
